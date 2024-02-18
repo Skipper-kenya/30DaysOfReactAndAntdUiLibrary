@@ -47,8 +47,10 @@ const TableWrapper = () => {
     },
   ];
 
-  const handleDeleteClick = (key) => {
-    alert(key);
+  const handleDeleteClick = (text, record, index) => {
+    console.log(
+      `text:${text}, record:${record.name} ,index:${index}`
+    );
   };
 
   return (
